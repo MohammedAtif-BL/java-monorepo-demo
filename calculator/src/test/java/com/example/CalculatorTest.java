@@ -30,4 +30,10 @@ class CalculatorTest {
         assertEquals(2, calculator.divide(6, 3));
         assertThrows(IllegalArgumentException.class, () -> calculator.divide(1, 0));
     }
+
+    @Test
+    public void testPower() {
+        Calculator calculator = new Calculator();
+        assertEquals(8, calculator.power(2, 3));
+    }
 }
