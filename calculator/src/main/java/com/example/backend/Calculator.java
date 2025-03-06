@@ -19,4 +19,8 @@ public class Calculator {
         }
         return a / b;
     }
+
+    public int power(int base, int exponent) {
+        return (int) Math.pow(base, exponent);
+    }
 }
